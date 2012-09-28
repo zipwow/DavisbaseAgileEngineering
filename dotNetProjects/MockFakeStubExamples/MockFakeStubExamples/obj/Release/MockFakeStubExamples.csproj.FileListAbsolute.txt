@@ -1,0 +1,8 @@
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\obj\Release\ResolveAssemblyReference.cache
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\bin\Release\MockFakeStubExamples.dll
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\bin\Release\MockFakeStubExamples.pdb
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\bin\Release\nunit.framework.dll
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\bin\Release\nunit.mocks.dll
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\bin\Release\nunit.framework.xml
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\obj\Release\MockFakeStubExamples.dll
+C:\Agile Engineering\Projects\MockFakeStubExamples\MockFakeStubExamples\obj\Release\MockFakeStubExamples.pdb

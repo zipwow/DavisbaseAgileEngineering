@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1003]C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\NUnitTest1.exe</TopNode>
+  <SelectedNode>[0-1002]NUnitTest1.TestFixture1.TestFault</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1003]C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\NUnitTest1.exe" Expanded="true" />
+    <Node UniqueName="[0-1004]NUnitTest1" Expanded="true" />
+    <Node UniqueName="[0-1000]NUnitTest1.TestFixture1" Expanded="true" />
+  </Nodes>
+</VisualState>

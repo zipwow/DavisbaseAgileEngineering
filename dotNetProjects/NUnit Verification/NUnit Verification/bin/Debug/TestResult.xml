@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\NUnit Verification.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-06-12" time="10:18:17">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.3634" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Program Files\NUnit 2.5.10\bin\net-2.0" machine-name="KEVIN-5A260E04F" user="Administrator" user-domain="KEVIN-5A260E04F" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\NUnit Verification.dll" executed="True" result="Success" success="True" time="0.031" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NUnitTest1" executed="True" result="Success" success="True" time="0.016" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestFixture1" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="NUnitTest1.TestFixture1.QueueIsEmptyOnConstruction" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

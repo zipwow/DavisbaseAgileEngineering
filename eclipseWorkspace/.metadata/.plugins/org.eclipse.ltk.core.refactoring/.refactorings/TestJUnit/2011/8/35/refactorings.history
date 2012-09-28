@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestJUnit/ant.xml&apos; to &apos;build.xml&apos;" description="Rename resource &apos;ant.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ant.xml" name="build.xml" stamp="1313994454588" updateReferences="true"/>
+</session>

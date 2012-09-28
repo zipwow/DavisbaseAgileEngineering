@@ -1,0 +1,14 @@
+package tddexample;
+
+import org.junit.Test;
+
+public class QueueUnitTest {
+	
+	@Test 
+	void emptyQueue() {
+		
+		Queue q = new Queue();
+		assertEquals(q.isEmpty(), true);
+	}
+
+}

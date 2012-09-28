@@ -1,0 +1,7 @@
+E:\HOAE2011\Projects\Primes\Primes\bin\Debug\Primes.dll
+E:\HOAE2011\Projects\Primes\Primes\bin\Debug\Primes.pdb
+E:\HOAE2011\Projects\Primes\Primes\bin\Debug\nunit.framework.dll
+E:\HOAE2011\Projects\Primes\Primes\bin\Debug\nunit.framework.xml
+E:\HOAE2011\Projects\Primes\Primes\obj\Debug\ResolveAssemblyReference.cache
+E:\HOAE2011\Projects\Primes\Primes\obj\Debug\Primes.dll
+E:\HOAE2011\Projects\Primes\Primes\obj\Debug\Primes.pdb

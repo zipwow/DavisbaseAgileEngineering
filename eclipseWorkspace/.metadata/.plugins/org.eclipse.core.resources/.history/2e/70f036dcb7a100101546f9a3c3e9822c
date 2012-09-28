@@ -1,0 +1,9 @@
+package tddexample;
+
+public class Queue {
+	
+	boolean isEmpty(){
+		return true; 
+	}
+
+}

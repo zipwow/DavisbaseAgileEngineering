@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;protected static int initializeArray(int s, boolean[] f)&apos; from &apos;primes.Primes.generateArray()&apos; to &apos;primes.Primes&apos;&#x0D;&#x0A;- Original project: &apos;Primes&apos;&#x0D;&#x0A;- Method name: &apos;initializeArray&apos;&#x0D;&#x0A;- Destination type: &apos;primes.Primes&apos;&#x0D;&#x0A;- Declared visibility: &apos;protected&apos;" comments="false" description="Extract method &apos;initializeArray&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;primes{Primes.java" name="initializeArray" replace="false" selection="571 41" stamp="1347372884973" version="1.0" visibility="4"/>
+</session>

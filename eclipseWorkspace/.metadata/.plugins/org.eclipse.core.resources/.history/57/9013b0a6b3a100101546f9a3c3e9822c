@@ -1,0 +1,14 @@
+package tddexample;
+
+import junit.framework.TestCase;
+
+public class QueueUnitTest extends TestCase {
+	
+	@Test 
+	void emptyQueue() {
+		
+		Queue q = new Queue();
+		assertEquals(q.isEmpty(), true);
+	}
+
+}

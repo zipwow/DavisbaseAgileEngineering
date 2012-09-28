@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="237" key="DIALOG_WIDTH"/>
+		<item value="192" key="DIALOG_Y_ORIGIN"/>
+		<item value="744" key="DIALOG_X_ORIGIN"/>
+		<item value="362" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="true" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="&#x09;&#x09;&#x09;&quot;Variable Usage&quot;,&#x0A;" key="selection"/>
+		<list key="findhistory">
+			<item value="^(\t\t\t)(.*)\n"/>
+			<item value="&quot;"/>
+			<item value="^(\t\t\t\t)(.*)\n"/>
+			<item value="^(\w*)(.*)\n"/>
+			<item value="^(\w?+)(.*)\n"/>
+			<item value="^(\w.)(.*)\n"/>
+			<item value="^(.*)\n"/>
+			<item value="^\s.(.*)\n"/>
+		</list>
+		<list key="replacehistory">
+			<item value="\1&quot;\2&quot;,\n"/>
+			<item value="&quot;\1&quot;,\n"/>
+			<item value="\t\t\t&quot;$1&quot;\n"/>
+			<item value="&quot;$1&quot;"/>
+			<item value="&quot;\1&quot;,"/>
+			<item value="&quot;\2&quot;,"/>
+			<item value="contains"/>
+			<item value="isPrime"/>
+		</list>
+	</section>
+</section>

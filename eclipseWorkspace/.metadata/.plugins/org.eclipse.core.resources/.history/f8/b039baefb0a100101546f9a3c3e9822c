@@ -1,0 +1,7 @@
+package tddexample;
+
+import junit.framework.TestCase;
+
+public class QueueUnitTest extends TestCase {
+
+}

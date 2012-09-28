@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1002]C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\NUnit Verification.dll</TopNode>
+  <SelectedNode>[0-1001]NUnitTest1.TestFixture1.QueueIsEmptyOnConstruction</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1002]C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\NUnit Verification.dll" Expanded="true" />
+    <Node UniqueName="[0-1003]NUnitTest1" Expanded="true" />
+    <Node UniqueName="[0-1000]NUnitTest1.TestFixture1" Expanded="true" />
+  </Nodes>
+</VisualState>

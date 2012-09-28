@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arg0&apos; in &apos;com.mycompany.AccountInvalidException.AccountInvalidException(...)&apos; to &apos;message&apos;&#x0D;&#x0A;- Original project: &apos;StubsFakesMocks&apos;&#x0D;&#x0A;- Original element: &apos;com.mycompany.AccountInvalidException.AccountInvalidException(String).arg0&apos;&#x0D;&#x0A;- Renamed element: &apos;arg0&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arg0&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.mycompany{AccountInvalidException.java[AccountInvalidException~AccountInvalidException~QString;@arg0!171!181!178!181!QString;" name="message" references="true" stamp="1336392045518" version="1.0"/>
+</session>

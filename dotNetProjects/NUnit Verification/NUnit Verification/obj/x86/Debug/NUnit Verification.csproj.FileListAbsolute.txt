@@ -1,0 +1,10 @@
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\NUnit Verification.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\NUnit Verification.pdb
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\nunit-console-runner.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\nunit.framework.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\nunit.util.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\nunit.core.interfaces.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Debug\nunit.core.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\obj\x86\Debug\NUnit Verification.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\obj\x86\Debug\NUnit Verification.pdb

@@ -1,0 +1,13 @@
+package tddexample;
+
+public class Queue {
+	
+	private boolean isEmpty = true; 
+	boolean isEmpty(){
+		return isEmpty; 
+	}
+
+	public void enqueue(String item) {
+		isEmpty = false; 
+	}
+}

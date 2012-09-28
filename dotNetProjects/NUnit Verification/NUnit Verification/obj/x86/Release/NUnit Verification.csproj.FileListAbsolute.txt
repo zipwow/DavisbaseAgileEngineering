@@ -1,0 +1,20 @@
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\NUnitTest1.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\NUnitTest1.pdb
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\nunit-console-runner.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\nunit.framework.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\nunit.util.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\nunit.core.interfaces.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\bin\Release\nunit.core.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\obj\x86\Release\NUnitTest1.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\NUnitTest1\obj\x86\Release\NUnitTest1.pdb
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\NUnit Verification.pdb
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\nunit-console-runner.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\nunit.framework.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\nunit.util.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\nunit.core.interfaces.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\nunit.core.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\obj\x86\Release\NUnit Verification.pdb
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\bin\Release\NUnit Verification.dll
+C:\Agile Engineering\Projects\NUnit Verification\NUnit Verification\obj\x86\Release\NUnit Verification.dll

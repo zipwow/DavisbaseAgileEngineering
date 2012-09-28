@@ -1,0 +1,22 @@
+package tddexample;
+
+import java.util.ArrayList;
+
+public class Queue {
+	
+	private ArrayList<String> list = new ArrayList<String>();
+	
+	boolean isEmpty(){
+		return list.size() == 0 ; 
+	}
+
+	public void enqueue(String item) {
+		list.add(item);
+	}
+	
+	public String dequeue() {
+		String item = (String) list.get(0);
+		list.remove(item); 
+		return item; 
+	}
+}
