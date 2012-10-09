@@ -1,8 +1,6 @@
-import junit.framework.TestCase;
-
 import org.junit.Test;
 
-public class QueueTest extends TestCase {
+public class QueueTest {
 
 	@Test
 	public void testNothing() {
