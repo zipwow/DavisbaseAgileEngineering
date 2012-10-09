@@ -91,38 +91,11 @@ this.ScenarioSetup(scenarioInfo);
 #line 12
  testRunner.Given("a Dog costs 23");
 #line 13
- testRunner.And("a Cat costs 13");
+ testRunner.And("a Cat costs 14");
 #line 14
  testRunner.When("I enter Cat and search for price");
 #line 15
  testRunner.Then("the result should be 13");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Parameterized Data Search")]
-        public virtual void ParameterizedDataSearch()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Parameterized Data Search", ((string[])(null)));
-#line 17
-this.ScenarioSetup(scenarioInfo);
-#line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "petName",
-                        "price"});
-            table1.AddRow(new string[] {
-                        "Dog",
-                        "25"});
-            table1.AddRow(new string[] {
-                        "Cat",
-                        "45"});
-#line 18
- testRunner.Given("the following data exists:", ((string)(null)), table1);
-#line 22
- testRunner.When("I enter Dog and search for price");
-#line 23
- testRunner.Then("the result should be 25");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -134,13 +107,13 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void BulkPetSearches(string petName, string price, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Bulk Pet Searches", exampleTags);
-#line 25
+#line 17
 this.ScenarioSetup(scenarioInfo);
-#line 26
+#line 18
  testRunner.Given(string.Format("a {0} costs {1}", petName, price));
-#line 27
+#line 19
  testRunner.When(string.Format("I enter {0} and search for price", petName));
-#line 28
+#line 20
  testRunner.Then(string.Format("the result should be {0}", price));
 #line hidden
             this.ScenarioCleanup();

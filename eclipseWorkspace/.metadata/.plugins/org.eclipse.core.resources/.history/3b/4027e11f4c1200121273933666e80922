@@ -1,0 +1,17 @@
+import junit.framework.TestCase;
+
+import org.junit.Test;
+
+
+
+public class QueueTest extends TestCase {
+	private MyQueue myQueue;
+
+	@Test
+	public void testIsEmptyOnConstruction() {
+		boolean empty = myQueue.isEmpty();
+		assertTrue(empty, "queue not empty on construction");
+	}
+
+
+}

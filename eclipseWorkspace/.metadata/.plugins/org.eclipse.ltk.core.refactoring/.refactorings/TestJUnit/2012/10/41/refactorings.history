@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;protected void setUp()&apos; from &apos;QueueTest.testIsEmptyOnConstruction()&apos; to &apos;QueueTest&apos;&#x0D;&#x0A;- Original project: &apos;TestJUnit&apos;&#x0D;&#x0A;- Method name: &apos;setUp&apos;&#x0D;&#x0A;- Destination type: &apos;QueueTest&apos;&#x0D;&#x0A;- Declared visibility: &apos;protected&apos;" comments="false" description="Extract method &apos;setUp&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{QueueTest.java" name="setUp" replace="false" selection="211 26" stamp="1349813192063" version="1.0" visibility="4"/>
+</session>

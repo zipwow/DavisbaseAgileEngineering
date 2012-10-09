@@ -1,0 +1,7 @@
+
+public class MyQueue {
+
+	public boolean isEmpty() {
+		return false;
+	}
+}

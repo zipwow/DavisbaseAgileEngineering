@@ -17,7 +17,8 @@
    2.  Exotic Pets (Emu, Llamas, Jaguars) should not be discounted at all
    3.  Discount rates over 50% should be rejected.
 
-
+@Discounts
+@Sprint25
 Scenario: Discount Happy Path
 	Given a Dog costs 25
 	And a Cat costs 45

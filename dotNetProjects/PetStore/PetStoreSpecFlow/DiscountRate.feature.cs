@@ -86,82 +86,16 @@ Acceptance Criteria
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Discount Happy Path", ((string[])(null)));
 #line 21
 this.ScenarioSetup(scenarioInfo);
-#line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "petName",
-                        "price"});
-            table1.AddRow(new string[] {
-                        "Dog",
-                        "25"});
-            table1.AddRow(new string[] {
-                        "Cat",
-                        "45"});
 #line 22
- testRunner.Given("the following data exists:", ((string)(null)), table1);
+ testRunner.Given("a Dog costs 25");
+#line 23
+ testRunner.And("a Cat costs 45");
+#line 24
+ testRunner.When("I set the discount rate to 10%");
+#line 25
+ testRunner.And("I enter Dog and search for price");
 #line 26
- testRunner.When("I set the discount rate to 10%");
-#line 27
- testRunner.When("I enter Dog and search for price");
-#line 28
  testRunner.Then("the result should be 22.50");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Multiple Discounts")]
-        [NUnit.Framework.TestCaseAttribute("Dog", "22.50", new string[0])]
-        [NUnit.Framework.TestCaseAttribute("Cat", "39.50", new string[0])]
-        public virtual void MultipleDiscounts(string petName, string price, string[] exampleTags)
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Multiple Discounts", exampleTags);
-#line 30
-this.ScenarioSetup(scenarioInfo);
-#line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "petName",
-                        "price"});
-            table2.AddRow(new string[] {
-                        "Dog",
-                        "25"});
-            table2.AddRow(new string[] {
-                        "Cat",
-                        "45"});
-#line 32
-testRunner.Given("the following data exists:", ((string)(null)), table2);
-#line 36
- testRunner.When("I set the discount rate to 10%");
-#line 37
- testRunner.When(string.Format("I enter {0} and search for price", petName));
-#line 38
- testRunner.Then(string.Format("the result should be {0}", price));
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Pre-existing Dog Search")]
-        public virtual void Pre_ExistingDogSearch()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Pre-existing Dog Search", ((string[])(null)));
-#line 48
-this.ScenarioSetup(scenarioInfo);
-#line hidden
-            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
-                        "petName",
-                        "price"});
-            table3.AddRow(new string[] {
-                        "Dog",
-                        "25"});
-            table3.AddRow(new string[] {
-                        "Cat",
-                        "45"});
-#line 49
- testRunner.Given("the following data exists:", ((string)(null)), table3);
-#line 53
- testRunner.When("I enter Dog and search for price");
-#line 54
- testRunner.Then("the result should be 25");
 #line hidden
             this.ScenarioCleanup();
         }

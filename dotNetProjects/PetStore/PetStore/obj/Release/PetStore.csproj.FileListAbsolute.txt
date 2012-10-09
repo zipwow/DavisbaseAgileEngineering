@@ -7,3 +7,10 @@ C:\Agile Engineering\Projects\PetStore\PetStore\obj\Release\PetStore.dll
 C:\Agile Engineering\Projects\PetStore\PetStore\obj\Release\PetStore.pdb
 C:\Agile Engineering\Projects\PetStore\PetStore\bin\Release\nunit.framework.dll
 C:\Agile Engineering\Projects\PetStore\PetStore\bin\Release\nunit.framework.xml
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\bin\Release\PetStore.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\bin\Release\PetStore.pdb
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\bin\Release\nunit.framework.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\bin\Release\nunit.framework.xml
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\obj\Release\ResolveAssemblyReference.cache
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\obj\Release\PetStore.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStore\obj\Release\PetStore.pdb

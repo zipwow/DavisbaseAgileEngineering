@@ -24,3 +24,16 @@ C:\Agile Engineering\Projects\PetStore\PetStoreSpecFlow\bin\Debug\fitSharp.dll
 C:\Agile Engineering\Projects\PetStore\PetStoreSpecFlow\bin\Debug\PetStore.pdb
 C:\Agile Engineering\Projects\PetStore\PetStoreSpecFlow\bin\Debug\nunit.framework.xml
 C:\Agile Engineering\Projects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll.config
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll.config
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.pdb
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\nunit.framework.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStore.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\fit.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\nunit.core.interfaces.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\fitSharp.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStore.pdb
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\nunit.framework.xml
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\obj\Release\ResolveAssemblyReference.cache
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\obj\Release\PetStoreSpecFlow.dll
+C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\obj\Release\PetStoreSpecFlow.pdb
