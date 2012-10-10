@@ -3,14 +3,24 @@ import java.util.ArrayList;
 
 public class Primes {
 
+private int maxValue;
+public Primes(int maxValue) {
+	this.maxValue=maxValue;
+}
+
+public ArrayList<Integer> generate() {
+	ArrayList<Integer> result = new ArrayList<Integer>();
+	int[] primes = generateArray(maxValue);
+
+	for (int i = 0; i < primes.length; ++i)
+		result.add(primes[i]);
+
+	return result;
+	
+}
+
  public static ArrayList<Integer> generate(int maxValue) {
-		ArrayList<Integer> result = new ArrayList<Integer>();
-		int[] primes = generateArray(maxValue);
-
-		for (int i = 0; i < primes.length; ++i)
-			result.add(primes[i]);
-
-		return result;
+	 return new Primes(maxValue).generate();
   }
 
   // Obsolete

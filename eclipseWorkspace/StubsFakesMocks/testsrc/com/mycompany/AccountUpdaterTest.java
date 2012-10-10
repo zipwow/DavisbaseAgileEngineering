@@ -11,21 +11,9 @@ import org.junit.Test;
 public class AccountUpdaterTest {
 
 	@Test
-	public void testHappyPath() {
-		// write a test to be sure that the price returned from the shipping service is charged to the credit card
-		BigDecimal price = new BigDecimal(42);
-		StubShippingService stubShippingService = new StubShippingService(price);
-		StubCreditCardService stubCreditCardService = new StubCreditCardService();
-		OrderPlacement orderPlacement = new OrderPlacement(stubShippingService,stubCreditCardService);
-		int productId = 39;
-		String creditCardNumber = "3333";
-		int accountId = 99;
-		orderPlacement.placeOrder(accountId, creditCardNumber, productId );
-		
-		assertEquals(productId,stubShippingService.getProductId());
-		assertEquals(accountId,stubShippingService.getAccountId());
-		assertEquals(price,stubCreditCardService.getAmount());
-		assertEquals(creditCardNumber,stubCreditCardService.getCreditCardNumber());
+	public void testChargedAmountIsCorrect() {
+		// write a test and stubs to be sure that the price returned from the shipping 
+		// service is charged to the credit card
 	}
 
 	@Test

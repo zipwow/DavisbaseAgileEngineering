@@ -10,8 +10,8 @@ package com.mycompany;
 public class OrderPlacement {
 	//remember, TDD!  Don't enter anything here unless you have a test for it.
 	
-	public OrderPlacement(IShippingService stubShippingService,
-			ICreditCardService stubCreditCardService) {
+	public OrderPlacement(IShippingService shippingService,
+			ICreditCardService creditCardService) {
 	}
 
 	public OrderResult placeOrder(int accountId, String creditCardNumber, int productId) {
