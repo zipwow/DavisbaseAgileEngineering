@@ -11,15 +11,15 @@ import org.junit.Test;
 public class AccountUpdaterTest {
 
 	@Test
-	public void testChargedAmountIsCorrect() {
-		// write a test and stubs to be sure that the price returned from the shipping 
-		// service is charged to the credit card
+	public void testHappyPath() {
+		// write a test to be sure that the price returned from the shipping service 
+		// is charged to the credit card
 	}
 
 	@Test
 	public void simulateFailure() {
 		// now adjust your stub implementation of the interfaces so that it
-		// throws one of the exceptions described in FacadeExample.cs.
+		// throws one of the exceptions from either ICreditCardService or IShippingService.
 		// be sure to change it in such a way that testHappyPath still passes!
 	}
 

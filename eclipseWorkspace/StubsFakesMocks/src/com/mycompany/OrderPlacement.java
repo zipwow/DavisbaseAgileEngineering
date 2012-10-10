@@ -12,9 +12,12 @@ public class OrderPlacement {
 	
 	public OrderPlacement(IShippingService shippingService,
 			ICreditCardService creditCardService) {
+		
 	}
 
+	//implement this method, but don't change its signature.
 	public OrderResult placeOrder(int accountId, String creditCardNumber, int productId) {
+		
 		return null; 
 	}
 }
