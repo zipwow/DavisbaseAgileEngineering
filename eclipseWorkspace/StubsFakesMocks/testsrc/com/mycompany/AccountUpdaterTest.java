@@ -29,7 +29,7 @@ public class AccountUpdaterTest {
 		// productID. Does your test break? If not, change your stub to
 		// check the passed-in value.
 	}
-
+	
 	@Test
 	@Ignore
 	public void testConfusionWithDynamicMock() throws Exception {
