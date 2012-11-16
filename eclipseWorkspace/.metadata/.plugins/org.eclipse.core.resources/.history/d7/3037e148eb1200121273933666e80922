@@ -1,0 +1,13 @@
+package com.mycompany;
+
+import java.math.BigDecimal;
+
+public class StubCreditCardService implements ICreditCardService {
+
+	@Override
+	public void reserveFunds(String creditCardNumber, BigDecimal amount)
+			throws FundsNotAvailableException {
+		
+	}
+
+}

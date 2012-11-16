@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>TestPetStore</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>2</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <content><![CDATA[<span class="meta">classpath: C:\Agile Engineering\Projects\PetStore\PetStore\bin\Release\PetStore.dll</span><br/><span class="meta">variable defined: COMMAND_PATTERN=%m -r fitnesse.fitserver.FitServer,fitsharp\fit.dll %p</span><br/><span class="meta">variable defined: TEST_RUNNER=fitsharp\Runner.exe</span><br/><br/>This is a test of the Pet Store implementation in C#.<br/><br/><table border="1" cellspacing="0">
+<tr><td colspan="2">FitSharp_Fixtures.PetStoreFixture</td>
+</tr>
+<tr><td>petName</td>
+<td>price?</td>
+</tr>
+<tr><td>Dog</td>
+<td class="pass">42.00</td>
+</tr>
+<tr><td>Cat</td>
+<td class="fail">13.00 <span class="fit_label">expected</span><hr />17 <span class="fit_label">actual</span></td>
+</tr>
+<tr><td>Bird</td>
+<td class="fail">7.00 <span class="fit_label">expected</span><hr />5 <span class="fit_label">actual</span></td>
+</tr>
+<tr><td>Fish</td>
+<td class="error">1.00<hr /><pre><div class="fit_stacktrace">System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.SystemException: no price found for [Fish].
+   at PetStore.PetStoreImpl.getPrice(String animalName) in C:\Agile Engineering\Projects\PetStore\PetStore\PetStoreImpl.cs:line 29
+   at FitSharp_Fixtures.PetStoreFixture.price() in C:\Agile Engineering\Projects\PetStore\PetStore\Class1.cs:line 32
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at fitSharp.Machine.Engine.MethodMember.Invoke(Object[] parameters)
+   at fitSharp.Machine.Engine.DefaultRuntime`2.Invoke(TypedValue instance, String memberName, Tree`1 parameters)
+   at fitSharp.Machine.Engine.ProcessorBase`2.<>c__DisplayClass26.<>c__DisplayClass28.<Invoke>b__25(RuntimeOperator`1 o)
+   at fitSharp.Machine.Engine.Operators`2.Do[O](CanDoOperation`1 canDoOperation, DoOperation`1 doOperation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.<>c__DisplayClass26.<Invoke>b__23(OperationLogging logging)
+   at fitSharp.Machine.Engine.ProcessorBase`2.DoLoggedOperation[R](String startMessage, Func`2 operation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.Invoke(TypedValue instance, String memberName, Tree`1 parameters)
+   at fitSharp.Fit.Operators.CellOperator.GetTypedActual(ExecuteContext context, ExecuteParameters parameters)
+   at fitSharp.Fit.Operators.ExecuteDefault.Check(ExecuteContext context, ExecuteParameters parameters)
+   at fitSharp.Fit.Operators.ExecuteDefault.Execute(ExecuteContext context, ExecuteParameters parameters)
+   at fitSharp.Fit.Operators.ExecuteBase.Execute(TypedValue instance, Tree`1 parameters)
+   at fitSharp.Machine.Engine.ProcessorBase`2.<>c__DisplayClass11.<>c__DisplayClass13.<Execute>b__10(ExecuteOperator`1 o)
+   at fitSharp.Machine.Engine.Operators`2.Do[O](CanDoOperation`1 canDoOperation, DoOperation`1 doOperation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.<>c__DisplayClass11.<Execute>b__e(OperationLogging logging)
+   at fitSharp.Machine.Engine.ProcessorBase`2.DoLoggedOperation[R](String startMessage, Func`2 operation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.Execute(TypedValue instance, Tree`1 parameters)
+   at fitSharp.Fit.Service.CellOperationImpl.Check(Object systemUnderTest, Tree`1 memberName, Tree`1 parameters, Tree`1 expectedCell)
+   at fitSharp.Fit.Service.CheckBinding.Do(Tree`1 cell)
+   at fitSharp.Fit.Service.Binding.Do(Tree`1 cell)
+   at fit.ColumnFixture.DoCell(Parse cell, Int32 column)</div></pre></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestPetStore</relativePageName>
+    
+    
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

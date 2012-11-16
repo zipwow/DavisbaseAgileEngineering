@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>TestPetStore</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <content><![CDATA[<span class="meta">classpath: C:\Agile Engineering\Projects\PetStore\PetStore\bin\Release\PetStore.dll</span><br/><span class="meta">variable defined: COMMAND_PATTERN=%m -r fitnesse.fitserver.FitServer,fitsharp\fit.dll %p</span><br/><span class="meta">variable defined: TEST_RUNNER=fitsharp\RunnerW.exe</span><br/><br/><br/><table border="1" cellspacing="0">
+<tr><td colspan="2">FitSharp_Fixtures.PetStoreFixture</td>
+</tr>
+<tr><td>petName</td>
+<td>price?</td>
+</tr>
+<tr><td>Dog</td>
+<td class="error">42.00<hr /><pre><div class="fit_stacktrace">fitSharp.Machine.Exception.MemberMissingException: Member 'price' with 0 parameter(s) not found for type 'FitSharp_Fixtures.PetStoreFixture'.
+   at fitSharp.Machine.Model.TypedValue.ThrowExceptionIfNotValid()
+   at fitSharp.Fit.Operators.CellOperator.GetTypedActual(ExecuteContext context, ExecuteParameters parameters)
+   at fitSharp.Fit.Operators.ExecuteDefault.Check(ExecuteContext context, ExecuteParameters parameters)
+   at fitSharp.Fit.Operators.ExecuteDefault.Execute(ExecuteContext context, ExecuteParameters parameters)
+   at fitSharp.Fit.Operators.ExecuteBase.Execute(TypedValue instance, Tree`1 parameters)
+   at fitSharp.Machine.Engine.ProcessorBase`2.<>c__DisplayClass11.<>c__DisplayClass13.<Execute>b__10(ExecuteOperator`1 o)
+   at fitSharp.Machine.Engine.Operators`2.Do[O](CanDoOperation`1 canDoOperation, DoOperation`1 doOperation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.<>c__DisplayClass11.<Execute>b__e(OperationLogging logging)
+   at fitSharp.Machine.Engine.ProcessorBase`2.DoLoggedOperation[R](String startMessage, Func`2 operation)
+   at fitSharp.Machine.Engine.ProcessorBase`2.Execute(TypedValue instance, Tree`1 parameters)
+   at fitSharp.Fit.Service.CellOperationImpl.Check(Object systemUnderTest, Tree`1 memberName, Tree`1 parameters, Tree`1 expectedCell)
+   at fitSharp.Fit.Service.CheckBinding.Do(Tree`1 cell)
+   at fitSharp.Fit.Service.Binding.Do(Tree`1 cell)
+   at fit.ColumnFixture.DoCell(Parse cell, Int32 column)</div></pre></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>TestPetStore</relativePageName>
+    
+    
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

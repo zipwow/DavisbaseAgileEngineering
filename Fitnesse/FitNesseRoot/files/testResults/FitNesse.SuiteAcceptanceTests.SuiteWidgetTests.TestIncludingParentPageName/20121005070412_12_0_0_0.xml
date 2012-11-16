@@ -1,0 +1,4018 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>TestIncludingParentPageName</rootPath>
+    <result>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-3091643971664819159');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3091643971664819159"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="-3091643971664819159"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4087388283492498990');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4087388283492498990"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary">.FitNesse.SuiteAcceptanceTests.ScenarioLibrary</a> <a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4087388283492498990"><table border="1" cellspacing="0" _TABLENUMBER=8202427697245229301>
+<tr><td>scenario</td>
+<td>given page</td>
+<td>page</td>
+<td>with content</td>
+<td>content</td>
+</tr>
+<tr><td>create page</td>
+<td>@page</td>
+<td>with content</td>
+<td colspan="2">@content</td>
+</tr>
+<tr><td>$IT=</td>
+<td>echo</td>
+<td colspan="3">@page</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1829868139141900476>
+<tr><td>scenario</td>
+<td>given page</td>
+<td colspan="2">page</td>
+</tr>
+<tr><td>given page</td>
+<td>@page</td>
+<td>with content</td>
+<td>nothing</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3855813451854871726>
+<tr><td>scenario</td>
+<td>given test page</td>
+<td>page</td>
+</tr>
+<tr><td>given page</td>
+<td colspan="2">@page</td>
+</tr>
+<tr><td>make</td>
+<td>@page</td>
+<td>a test page</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3679063487326634148>
+<tr><td>scenario</td>
+<td>given slim test page</td>
+<td colspan="2">page</td>
+</tr>
+<tr><td>given page</td>
+<td>@page</td>
+<td>with content</td>
+<td>!define TEST_SYSTEM {slim}</td>
+</tr>
+<tr><td>make</td>
+<td>@page</td>
+<td colspan="2">a test page</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5044015221308178053>
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should have link to</td>
+<td>target</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>ensure</td>
+<td>content contains</td>
+<td colspan="3">&lt;a href="@target"&gt;</td>
+</tr>
+<tr><td>$IT=</td>
+<td>echo</td>
+<td colspan="3">@source</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4568549689062622177>
+<tr><td>scenario</td>
+<td>it should have link to</td>
+<td colspan="2">target</td>
+</tr>
+<tr><td>page</td>
+<td>$IT</td>
+<td>should have link to</td>
+<td>@target</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6562713784422165349>
+<tr><td>scenario</td>
+<td>and it should have link to</td>
+<td colspan="2">target</td>
+</tr>
+<tr><td>page</td>
+<td>$IT</td>
+<td>should have link to</td>
+<td>@target</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8940956383292830835>
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should have creating link to</td>
+<td>target</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>ensure</td>
+<td>content contains</td>
+<td colspan="3">@target&lt;a title="create page" href="@target?edit&amp;nonExistent=true"&gt;[?]&lt;/a&gt;</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=822302774900854091>
+<tr><td>scenario</td>
+<td>it should have creating link to</td>
+<td colspan="2">target</td>
+</tr>
+<tr><td>page</td>
+<td>$IT</td>
+<td>should have creating link to</td>
+<td>@target</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6445639813916761563>
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>ensure</td>
+<td>content contains</td>
+<td colspan="3">@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=696395783918165908>
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should not contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>reject</td>
+<td>content contains</td>
+<td colspan="3">@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=896532915783660025>
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should match</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>ensure</td>
+<td>content matches</td>
+<td colspan="3">@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=798915607563597553>
+<tr><td>scenario</td>
+<td>it should contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td>page</td>
+<td>$IT</td>
+<td>should contain</td>
+<td>@text</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=9197025576581644927>
+<tr><td>scenario</td>
+<td>it should not contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td>page</td>
+<td>$IT</td>
+<td>should not contain</td>
+<td>@text</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3571849481896651919>
+<tr><td>scenario</td>
+<td>it should contain</td>
+<td>text</td>
+<td>in line</td>
+<td>symbol</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>$IT</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>$@symbol=</td>
+<td>line number containing</td>
+<td colspan="3">@text</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6424091706543557857>
+<tr><td>scenario</td>
+<td>it should match</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td>page</td>
+<td>$IT</td>
+<td>should match</td>
+<td>@text</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5535055345125473035>
+<tr><td>scenario</td>
+<td>test results for page</td>
+<td>source</td>
+<td>should contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source?test</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>ensure</td>
+<td>content contains</td>
+<td colspan="3">@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8021264756301965758>
+<tr><td>scenario</td>
+<td>its test results should contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td>test results for page</td>
+<td>$IT</td>
+<td>should contain</td>
+<td>@text</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8730030789765360984>
+<tr><td>scenario</td>
+<td>test ressults for page</td>
+<td>source</td>
+<td>should not contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>@source?test</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>reject</td>
+<td>content contains</td>
+<td colspan="3">@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8906780758588565858>
+<tr><td>scenario</td>
+<td>and should contain</td>
+<td>text</td>
+</tr>
+<tr><td>ensure</td>
+<td>content contains</td>
+<td>@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="2">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7211332230946340985>
+<tr><td>scenario</td>
+<td>and should match</td>
+<td>text</td>
+</tr>
+<tr><td>ensure</td>
+<td>content matches</td>
+<td>@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="2">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4268258329246752848>
+<tr><td>scenario</td>
+<td>and should not contain</td>
+<td>text</td>
+</tr>
+<tr><td>reject</td>
+<td>content contains</td>
+<td>@text</td>
+</tr>
+<tr><td>show</td>
+<td colspan="2">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4830037055061084100>
+<tr><td>scenario</td>
+<td>widget</td>
+<td>wikiText</td>
+<td>should render</td>
+<td>htmlText</td>
+</tr>
+<tr><td>create page</td>
+<td>WidgetPage</td>
+<td>with content</td>
+<td colspan="2">@wikiText</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>WidgetPage</td>
+<td colspan="2">200</td>
+</tr>
+<tr><td>ensure</td>
+<td>content matches</td>
+<td colspan="3">@htmlText</td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2749559770427732849>
+<tr><td>scenario</td>
+<td>the line</td>
+<td>after</td>
+<td>should come after</td>
+<td>before</td>
+</tr>
+<tr><td>check</td>
+<td>echo int</td>
+<td>$@before</td>
+<td colspan="2">&lt; $@after</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-2018577409655078897');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2018577409655078897"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="FitNesse.SuiteAcceptanceTests.SuiteWidgetTests.SetUp">.FitNesse.SuiteAcceptanceTests.SuiteWidgetTests.SetUp</a> <a href="FitNesse.SuiteAcceptanceTests.SuiteWidgetTests.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-2018577409655078897"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('546129785365944968');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img546129785365944968"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="FitNesse.SuiteAcceptanceTests.SetUp">&lt;SuiteAcceptanceTests.SetUp</a> <a href="FitNesse.SuiteAcceptanceTests.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="546129785365944968"><table border="1" cellspacing="0" _TABLENUMBER=3900035618381926963>
+<tr><td>Import</td>
+</tr>
+<tr><td>fitnesse.fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4651981629652062463>
+<tr><td><span class="pass">SetUp</span></td>
+</tr>
+</table>
+</div>
+</div>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6334210282970879721>
+<tr><td>Library</td>
+</tr>
+<tr><td><span class="pass">echo fixture</span></td>
+</tr>
+<tr><td><span class="pass">page driver</span></td>
+</tr>
+</table>
+<br/></div>
+</div>
+<div class="invisible"><span class="meta">variable defined: pageContent=!include -setup SetUp
+!include IncludedPage
+Including parent page name is !lit?0?
+!include -teardown TearDown</span><br/></div>
+<br/><h3>Test that the PARENT_NAME variable is always the Including Page's name</h3><table border="1" cellspacing="0" _TABLENUMBER=6170680188471082463>
+<tr><td colspan="4">script</td>
+</tr>
+<tr><td>create page</td>
+<td>SetUp</td>
+<td>with content</td>
+<td>Set Up parent page name is ${PARENT_NAME}</td>
+</tr>
+<tr><td>create page</td>
+<td>TearDown</td>
+<td>with content</td>
+<td>Tear Down parent page name is ${PARENT_NAME}</td>
+</tr>
+<tr><td>create page</td>
+<td>IncludedPage</td>
+<td>with content</td>
+<td>Included parent page name is ${PARENT_NAME}</td>
+</tr>
+<tr><td class=pass>given page</td>
+<td class=pass>IncludingPage</td>
+<td class=pass>with content</td>
+<td class=pass>!include -setup SetUp<br/>!include IncludedPage<br/>Including parent page name is ${PARENT_NAME}<br/>!include -teardown TearDown</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-1215341526889595679');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-1215341526889595679"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-1215341526889595679"><table border="1" cellspacing="0" _TABLENUMBER=8347313318698368309 table_name="scriptTable_27_3/scriptTable_0">
+<tr><td>scenario</td>
+<td>given page</td>
+<td>page</td>
+<td>with content</td>
+<td>content</td>
+</tr>
+<tr><td>create page</td>
+<td>IncludingPage</td>
+<td>with content</td>
+<td colspan="2">!include -setup SetUp<br/>!include IncludedPage<br/>Including parent page name is ${PARENT_NAME}<br/>!include -teardown TearDown</td>
+</tr>
+<tr><td>$IT<-[IncludingPage]</td>
+<td>echo</td>
+<td colspan="3">IncludingPage</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>it should contain</td>
+<td colspan="3" class=pass>Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4888865098648318234');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4888865098648318234"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="4888865098648318234"><table border="1" cellspacing="0" _TABLENUMBER=1684293847819957380 table_name="scriptTable_27_4/scriptTable_12">
+<tr><td>scenario</td>
+<td>it should contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td class=pass>page</td>
+<td class=pass>$IT->[IncludingPage]</td>
+<td class=pass>should contain</td>
+<td class=pass>Included parent page name is <a href="IncludingPage">IncludingPage</a></td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4067414198927934097');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4067414198927934097"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-4067414198927934097"><table border="1" cellspacing="0" _TABLENUMBER=1822963800865950207 table_name="scriptTable_27_4/scriptTable_12_0/scriptTable_9">
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>$IT->[IncludingPage]</td>
+<td colspan="2"><span class="pass">200</span></td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>content contains</td>
+<td colspan="3">Included parent page name is <a href="IncludingPage">IncludingPage</a></td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+<TD>HTTP/1.1 200 OK
+Content-Length: 5648
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('4921465202812403804');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img4921465202812403804"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="4921465202812403804"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-5051883311907472403');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img-5051883311907472403"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="-5051883311907472403"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('6962979356130710155');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img6962979356130710155"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="6962979356130710155"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</TD></tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>it should contain</td>
+<td colspan="3" class=pass>Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('3617613024498787994');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img3617613024498787994"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="3617613024498787994"><table border="1" cellspacing="0" _TABLENUMBER=7350113265206951564 table_name="scriptTable_27_5/scriptTable_12">
+<tr><td>scenario</td>
+<td>it should contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td class=pass>page</td>
+<td class=pass>$IT->[IncludingPage]</td>
+<td class=pass>should contain</td>
+<td class=pass>Including parent page name is <a href="IncludingPage">IncludingPage</a></td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4295887314438405633');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4295887314438405633"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="4295887314438405633"><table border="1" cellspacing="0" _TABLENUMBER=7682328652671838244 table_name="scriptTable_27_5/scriptTable_12_0/scriptTable_9">
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>$IT->[IncludingPage]</td>
+<td colspan="2"><span class="pass">200</span></td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>content contains</td>
+<td colspan="3">Including parent page name is <a href="IncludingPage">IncludingPage</a></td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+<TD>HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-7528927949519388743');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img-7528927949519388743"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="-7528927949519388743"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('8924553487025839466');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img8924553487025839466"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="8924553487025839466"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-3579837893681276008');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img-3579837893681276008"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="-3579837893681276008"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</TD></tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>it should contain</td>
+<td colspan="3" class=pass>Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-8932602367951760372');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8932602367951760372"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-8932602367951760372"><table border="1" cellspacing="0" _TABLENUMBER=6848881844686368877 table_name="scriptTable_27_6/scriptTable_12">
+<tr><td>scenario</td>
+<td>it should contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td class=pass>page</td>
+<td class=pass>$IT->[IncludingPage]</td>
+<td class=pass>should contain</td>
+<td class=pass>Set Up parent page name is <a href="IncludingPage">IncludingPage</a></td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-6162809117899053159');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6162809117899053159"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-6162809117899053159"><table border="1" cellspacing="0" _TABLENUMBER=4615913057674700900 table_name="scriptTable_27_6/scriptTable_12_0/scriptTable_9">
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>$IT->[IncludingPage]</td>
+<td colspan="2"><span class="pass">200</span></td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>content contains</td>
+<td colspan="3">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+<TD>HTTP/1.1 200 OK
+Content-Length: 5645
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('4670024147608666612');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img4670024147608666612"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="4670024147608666612"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('8648789260822519834');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img8648789260822519834"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="8648789260822519834"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('2917782396319161784');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img2917782396319161784"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="2917782396319161784"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</TD></tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>it should contain</td>
+<td colspan="3" class=pass>Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('2861848533235398896');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2861848533235398896"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="2861848533235398896"><table border="1" cellspacing="0" _TABLENUMBER=1945360305407094810 table_name="scriptTable_27_7/scriptTable_12">
+<tr><td>scenario</td>
+<td>it should contain</td>
+<td colspan="2">text</td>
+</tr>
+<tr><td class=pass>page</td>
+<td class=pass>$IT->[IncludingPage]</td>
+<td class=pass>should contain</td>
+<td class=pass>Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-6412076792363850111');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6412076792363850111"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-6412076792363850111"><table border="1" cellspacing="0" _TABLENUMBER=8594386794830410444 table_name="scriptTable_27_7/scriptTable_12_0/scriptTable_9">
+<tr><td>scenario</td>
+<td>page</td>
+<td>source</td>
+<td>should contain</td>
+<td>text</td>
+</tr>
+<tr><td>check</td>
+<td>request page</td>
+<td>$IT->[IncludingPage]</td>
+<td colspan="2"><span class="pass">200</span></td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>content contains</td>
+<td colspan="3">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></td>
+</tr>
+<tr><td>show</td>
+<td colspan="4">content</td>
+<TD>HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-3922339017132946557');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img-3922339017132946557"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="-3922339017132946557"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-5472001811293014288');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img-5472001811293014288"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="-5472001811293014288"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('6148714198157862406');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img6148714198157862406"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="6148714198157862406"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</TD></tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+</table>
+<br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('1845181912585367613');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img1845181912585367613"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="FitNesse.SuiteAcceptanceTests.TearDown">.FitNesse.SuiteAcceptanceTests.TearDown</a> <a href="FitNesse.SuiteAcceptanceTests.TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="1845181912585367613"><hr/>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5671085564754117279>
+<tr><td><span class="pass">tear down</span></td>
+</tr>
+</table>
+<br/></div>
+</div>
+]]></content>
+    <relativePageName>TestIncludingParentPageName</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[create page]]></col>
+                    <col><![CDATA[@page]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[@content]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[$IT=]]></col>
+                    <col><![CDATA[echo]]></col>
+                    <col><![CDATA[@page]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[@page]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[nothing]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[given test page]]></col>
+                    <col><![CDATA[page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[@page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[make]]></col>
+                    <col><![CDATA[@page]]></col>
+                    <col><![CDATA[a test page]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[given slim test page]]></col>
+                    <col><![CDATA[page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[@page]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[!define TEST_SYSTEM {slim}]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[make]]></col>
+                    <col><![CDATA[@page]]></col>
+                    <col><![CDATA[a test page]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should have link to]]></col>
+                    <col><![CDATA[target]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[&lt;a href="@target"&gt;]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[$IT=]]></col>
+                    <col><![CDATA[echo]]></col>
+                    <col><![CDATA[@source]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should have link to]]></col>
+                    <col><![CDATA[target]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should have link to]]></col>
+                    <col><![CDATA[@target]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and it should have link to]]></col>
+                    <col><![CDATA[target]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should have link to]]></col>
+                    <col><![CDATA[@target]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should have creating link to]]></col>
+                    <col><![CDATA[target]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@target&lt;a title="create page" href="@target?edit&amp;nonExistent=true"&gt;[?]&lt;/a&gt;]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should have creating link to]]></col>
+                    <col><![CDATA[target]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should have creating link to]]></col>
+                    <col><![CDATA[@target]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_10</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should not contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reject]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_11</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should match]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content matches]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_12</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_13</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should not contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should not contain]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_14</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[text]]></col>
+                    <col><![CDATA[in line]]></col>
+                    <col><![CDATA[symbol]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[$@symbol=]]></col>
+                    <col><![CDATA[line number containing]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_15</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should match]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should match]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_16</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[test results for page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source?test]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_17</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[its test results should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[test results for page]]></col>
+                    <col><![CDATA[$IT]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_18</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[test ressults for page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should not contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[@source?test]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reject]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_19</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_20</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and should match]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content matches]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_21</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and should not contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reject]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[@text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_22</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[widget]]></col>
+                    <col><![CDATA[wikiText]]></col>
+                    <col><![CDATA[should render]]></col>
+                    <col><![CDATA[htmlText]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[create page]]></col>
+                    <col><![CDATA[WidgetPage]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[@wikiText]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[WidgetPage]]></col>
+                    <col><![CDATA[200]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[content matches]]></col>
+                    <col><![CDATA[@htmlText]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_23</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[the line]]></col>
+                    <col><![CDATA[after]]></col>
+                    <col><![CDATA[should come after]]></col>
+                    <col><![CDATA[before]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[echo int]]></col>
+                    <col><![CDATA[$@before]]></col>
+                    <col><![CDATA[&lt; $@after]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_24</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fitnesse.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_25</name>
+                <row>
+                    <col><![CDATA[pass(SetUp)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>library_26</name>
+                <row>
+                    <col><![CDATA[Library]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(echo fixture)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(page driver)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[create page]]></col>
+                    <col><![CDATA[SetUp]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[Set Up parent page name is ${PARENT_NAME}]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[create page]]></col>
+                    <col><![CDATA[TearDown]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[Tear Down parent page name is ${PARENT_NAME}]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[create page]]></col>
+                    <col><![CDATA[IncludedPage]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[Included parent page name is ${PARENT_NAME}]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[IncludingPage]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[!include -setup SetUp<br/>!include IncludedPage<br/>Including parent page name is ${PARENT_NAME}<br/>!include -teardown TearDown]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_3/scriptTable_0)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_4/scriptTable_12)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_5/scriptTable_12)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_6/scriptTable_12)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_7/scriptTable_12)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_3/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[given page]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[content]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[create page]]></col>
+                    <col><![CDATA[IncludingPage]]></col>
+                    <col><![CDATA[with content]]></col>
+                    <col><![CDATA[!include -setup SetUp<br/>!include IncludedPage<br/>Including parent page name is ${PARENT_NAME}<br/>!include -teardown TearDown]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[$IT<-[IncludingPage]]]></col>
+                    <col><![CDATA[echo]]></col>
+                    <col><![CDATA[IncludingPage]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_4/scriptTable_12</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[Included parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_4/scriptTable_12_0/scriptTable_9)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_4/scriptTable_12_0/scriptTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[pass(200)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[Included parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+                    <col><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5648
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('4921465202812403804');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img4921465202812403804"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="4921465202812403804"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-5051883311907472403');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img-5051883311907472403"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="-5051883311907472403"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('6962979356130710155');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img6962979356130710155"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="6962979356130710155"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_5/scriptTable_12</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[Including parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_5/scriptTable_12_0/scriptTable_9)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_5/scriptTable_12_0/scriptTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[pass(200)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[Including parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+                    <col><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-7528927949519388743');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img-7528927949519388743"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="-7528927949519388743"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('8924553487025839466');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img8924553487025839466"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="8924553487025839466"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-3579837893681276008');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img-3579837893681276008"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="-3579837893681276008"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_6/scriptTable_12</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[Set Up parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_6/scriptTable_12_0/scriptTable_9)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_6/scriptTable_12_0/scriptTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[pass(200)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[Set Up parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+                    <col><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5645
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('4670024147608666612');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img4670024147608666612"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="4670024147608666612"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('8648789260822519834');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img8648789260822519834"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="8648789260822519834"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('2917782396319161784');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img2917782396319161784"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="2917782396319161784"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_7/scriptTable_12</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[it should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[Tear Down parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_27_7/scriptTable_12_0/scriptTable_9)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_27_7/scriptTable_12_0/scriptTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[page]]></col>
+                    <col><![CDATA[source]]></col>
+                    <col><![CDATA[should contain]]></col>
+                    <col><![CDATA[text]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[request page]]></col>
+                    <col><![CDATA[$IT->[IncludingPage]]]></col>
+                    <col><![CDATA[pass(200)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[content contains]]></col>
+                    <col><![CDATA[Tear Down parent page name is <a href="IncludingPage">IncludingPage</a>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[show]]></col>
+                    <col><![CDATA[content]]></col>
+                    <col><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;IncludingPage&lt;/title&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/&gt;
+		&lt;link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/&gt;
+		&lt;script src="/files/javascript/fitnesse.js" type="text/javascript"&gt;&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class="sidebar"&gt;
+			&lt;div class="art_niche" onclick="document.location='FrontPage'"&gt;&lt;/div&gt;
+			&lt;div class="actions"&gt;
+				&lt;!--Edit button--&gt;
+				&lt;a href="IncludingPage?edit" accesskey="e"&gt;Edit&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Properties button--&gt;
+				&lt;a href="IncludingPage?properties" accesskey="p"&gt;Properties&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Refactor button--&gt;
+				&lt;a href="IncludingPage?refactor" accesskey="r"&gt;Refactor&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Where Used button--&gt;
+				&lt;a href="IncludingPage?whereUsed" accesskey="w"&gt;Where Used&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Search button--&gt;
+				&lt;a href="?searchForm" accesskey="s"&gt;Search&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Files button--&gt;
+				&lt;a href="/files" accesskey="f"&gt;Files&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Versions button--&gt;
+				&lt;a href="IncludingPage?versions" accesskey="v"&gt;Versions&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Recent Changes button--&gt;
+				&lt;a href="/RecentChanges" accesskey=""&gt;Recent Changes&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--User Guide button--&gt;
+				&lt;a href=".FitNesse.UserGuide" accesskey=""&gt;User Guide&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;!--Test History button--&gt;
+				&lt;a href="?testHistory" accesskey=""&gt;Test History&lt;/a&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+				&lt;div class="nav_break"&gt;&amp;nbsp;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="mainbar"&gt;
+			&lt;div class="header"&gt;
+				&lt;br/&gt;&lt;span class="page_title"&gt;IncludingPage&lt;/span&gt;
+&lt;a style="font-size:small;" onclick="popup('addChildPopup')"&gt; [add child]&lt;/a&gt;			&lt;/div&gt;
+			&lt;div class="main"&gt;&lt;div class="setup"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-3922339017132946557');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img-3922339017132946557"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Set Up: &lt;a href="SetUp"&gt;SetUp&lt;/a&gt; &lt;a href="SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="-3922339017132946557"&gt;Set Up parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="included"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('-5472001811293014288');"&gt;
+		&lt;img src="/files/images/collapsableOpen.gif" class="left" id="img-5472001811293014288"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Included page: &lt;a href="IncludedPage"&gt;IncludedPage&lt;/a&gt; &lt;a href="IncludedPage?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="collapsable" id="-5472001811293014288"&gt;Included parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+Including parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;br/&gt;&lt;div class="teardown"&gt;
+	&lt;div style="float: right;" class="meta"&gt;&lt;a href="javascript:expandAll();"&gt;Expand All&lt;/a&gt; | &lt;a href="javascript:collapseAll();"&gt;Collapse All&lt;/a&gt;&lt;/div&gt;
+	&lt;a href="javascript:toggleCollapsable('6148714198157862406');"&gt;
+		&lt;img src="/files/images/collapsableClosed.gif" class="left" id="img6148714198157862406"/&gt;
+	&lt;/a&gt;
+&amp;nbsp;&lt;span class="meta"&gt;Tear Down: &lt;a href="TearDown"&gt;TearDown&lt;/a&gt; &lt;a href="TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction="&gt;(edit)&lt;/a&gt;&lt;/span&gt;
+	&lt;div class="hidden" id="6148714198157862406"&gt;Tear Down parent page name is &lt;a href="IncludingPage"&gt;IncludingPage&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="footer"&gt;
+&lt;/div&gt;
+&lt;div id="addChildPopup" class="popup_window"&gt;
+  &lt;div class="popup_title"&gt;Add Child Page to IncludingPage&lt;/div&gt;
+  &lt;div class="popup_content"&gt;
+    &lt;form action="IncludingPage" method="get"&gt;
+      &lt;input type="hidden" name="responder" value="addChild"/&gt;
+      &lt;table border="0" cellspacing="0" width="100%" height="100%"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;input type="radio" name="pageType" value="Normal"/&gt; Normal&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Test"/&gt; Test&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Suite"/&gt; Suite&lt;br/&gt;
+            &lt;input type="radio" name="pageType" value="Default" checked="checked"/&gt; Default&lt;br/&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;table border="0" cellspacing="0" width="100%"&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childName"&gt;Name&lt;/label&gt;&lt;/td?
+                &lt;td&gt;&lt;input size="50" id="childName" type="text" name="name"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;&lt;label for="childContent"&gt;Content&lt;/label&gt;&lt;/td&gt;
+                &lt;td&gt;&lt;input size="50" id="childContent" type="text" name="content" value="!contents"/&gt;&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/&gt;
+            &lt;input value="Add" type="submit"/&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_28</name>
+                <row>
+                    <col><![CDATA[pass(tear down)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_24_0, import, fitnesse.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_25_0, make, decisionTable_25, SetUp]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_25_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[SetUp]]></expected>
+                              <evaluationMessage><![CDATA[pass(SetUp)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_25_1, call, decisionTable_25, table, []]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS table[1] fitnesse.fixtures.SetUp.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:25)
+	at fitnesse.slim.MethodExecutionResults.returnValue(MethodExecutionResults.java:16)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:162)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Unknown Source)
+]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[library_26_0, make, library1, EchoFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>library_26_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[echo fixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(echo fixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[library_26_1, make, library2, PageDriver]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>library_26_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[page driver]]></expected>
+                              <evaluationMessage><![CDATA[pass(page driver)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_0, call, scriptTableActor, createPageWithContent, SetUp, Set Up parent page name is ${PARENT_NAME}]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[create page]]></expected>
+                              <evaluationMessage><![CDATA[create page]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_1, call, scriptTableActor, createPageWithContent, TearDown, Tear Down parent page name is ${PARENT_NAME}]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_1</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_1</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[create page]]></expected>
+                              <evaluationMessage><![CDATA[create page]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_2, call, scriptTableActor, createPageWithContent, IncludedPage, Included parent page name is ${PARENT_NAME}]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_2</instructionId>
+          <col>3</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[create page]]></expected>
+                              <evaluationMessage><![CDATA[create page]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_3/scriptTable_0_0, call, scriptTableActor, createPageWithContent, IncludingPage, !include -setup SetUp<br/>!include IncludedPage<br/>Including parent page name is ${PARENT_NAME}<br/>!include -teardown TearDown]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_3/scriptTable_0_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_3/scriptTable_0_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_3/scriptTable_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[create page]]></expected>
+                              <evaluationMessage><![CDATA[create page]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_3/scriptTable_0_1, callAndAssign, IT, scriptTableActor, echo, IncludingPage]]]></instruction>
+        <slimResult><![CDATA[IncludingPage]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_3/scriptTable_0_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+                    <actual><![CDATA[IncludingPage]]></actual>
+                              <expected><![CDATA[$IT=]]></expected>
+                              <evaluationMessage><![CDATA[$IT<-[IncludingPage]]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_3/scriptTable_0_1</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_4/scriptTable_12_0/scriptTable_9_0, call, scriptTableActor, requestPage, $IT]]]></instruction>
+        <slimResult><![CDATA[200]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_4/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[200]]></actual>
+                              <expected><![CDATA[200]]></expected>
+                              <evaluationMessage><![CDATA[pass(200)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_4/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_4/scriptTable_12_0/scriptTable_9_1, call, scriptTableActor, contentContains, Included parent page name is <a href="IncludingPage">IncludingPage</a>]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_4/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_4/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_4/scriptTable_12_0/scriptTable_9_2, call, scriptTableActor, content]]]></instruction>
+        <slimResult><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5648
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4921465202812403804');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4921465202812403804"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4921465202812403804">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5051883311907472403');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-5051883311907472403"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="-5051883311907472403">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('6962979356130710155');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6962979356130710155"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="6962979356130710155">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_4/scriptTable_12_0/scriptTable_9_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5648
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4921465202812403804');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4921465202812403804"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4921465202812403804">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5051883311907472403');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-5051883311907472403"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="-5051883311907472403">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('6962979356130710155');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6962979356130710155"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="6962979356130710155">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_5/scriptTable_12_0/scriptTable_9_0, call, scriptTableActor, requestPage, $IT]]]></instruction>
+        <slimResult><![CDATA[200]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_5/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[200]]></actual>
+                              <expected><![CDATA[200]]></expected>
+                              <evaluationMessage><![CDATA[pass(200)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_5/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_5/scriptTable_12_0/scriptTable_9_1, call, scriptTableActor, contentContains, Including parent page name is <a href="IncludingPage">IncludingPage</a>]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_5/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_5/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_5/scriptTable_12_0/scriptTable_9_2, call, scriptTableActor, content]]]></instruction>
+        <slimResult><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-7528927949519388743');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7528927949519388743"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-7528927949519388743">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8924553487025839466');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img8924553487025839466"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="8924553487025839466">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-3579837893681276008');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3579837893681276008"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-3579837893681276008">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_5/scriptTable_12_0/scriptTable_9_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-7528927949519388743');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7528927949519388743"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-7528927949519388743">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8924553487025839466');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img8924553487025839466"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="8924553487025839466">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-3579837893681276008');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3579837893681276008"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-3579837893681276008">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_6/scriptTable_12_0/scriptTable_9_0, call, scriptTableActor, requestPage, $IT]]]></instruction>
+        <slimResult><![CDATA[200]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_6/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[200]]></actual>
+                              <expected><![CDATA[200]]></expected>
+                              <evaluationMessage><![CDATA[pass(200)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_6/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_6/scriptTable_12_0/scriptTable_9_1, call, scriptTableActor, contentContains, Set Up parent page name is <a href="IncludingPage">IncludingPage</a>]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_6/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_6/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_6/scriptTable_12_0/scriptTable_9_2, call, scriptTableActor, content]]]></instruction>
+        <slimResult><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5645
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4670024147608666612');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4670024147608666612"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4670024147608666612">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8648789260822519834');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img8648789260822519834"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="8648789260822519834">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2917782396319161784');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2917782396319161784"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="2917782396319161784">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_6/scriptTable_12_0/scriptTable_9_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5645
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4670024147608666612');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4670024147608666612"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4670024147608666612">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8648789260822519834');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img8648789260822519834"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="8648789260822519834">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2917782396319161784');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2917782396319161784"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="2917782396319161784">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_7/scriptTable_12_0/scriptTable_9_0, call, scriptTableActor, requestPage, $IT]]]></instruction>
+        <slimResult><![CDATA[200]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_7/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[200]]></actual>
+                              <expected><![CDATA[200]]></expected>
+                              <evaluationMessage><![CDATA[pass(200)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_7/scriptTable_12_0/scriptTable_9_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_7/scriptTable_12_0/scriptTable_9_1, call, scriptTableActor, contentContains, Tear Down parent page name is <a href="IncludingPage">IncludingPage</a>]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_27_7/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_7/scriptTable_12_0/scriptTable_9_1</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_27_7/scriptTable_12_0/scriptTable_9_2, call, scriptTableActor, content]]]></instruction>
+        <slimResult><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-3922339017132946557');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3922339017132946557"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-3922339017132946557">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5472001811293014288');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-5472001811293014288"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="-5472001811293014288">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('6148714198157862406');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6148714198157862406"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="6148714198157862406">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_27_7/scriptTable_12_0/scriptTable_9_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ShowActionExpectation</type>
+                    <actual><![CDATA[HTTP/1.1 200 OK
+Content-Length: 5651
+Connection: close
+Server: FitNesse-v20100303
+Cache-Control: max-age=0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>IncludingPage</title>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/files/css/fitnesse_print.css" media="print"/>
+		<script src="/files/javascript/fitnesse.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="art_niche" onclick="document.location='FrontPage'"></div>
+			<div class="actions">
+				<!--Edit button-->
+				<a href="IncludingPage?edit" accesskey="e">Edit</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Properties button-->
+				<a href="IncludingPage?properties" accesskey="p">Properties</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Refactor button-->
+				<a href="IncludingPage?refactor" accesskey="r">Refactor</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Where Used button-->
+				<a href="IncludingPage?whereUsed" accesskey="w">Where Used</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Search button-->
+				<a href="?searchForm" accesskey="s">Search</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Files button-->
+				<a href="/files" accesskey="f">Files</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Versions button-->
+				<a href="IncludingPage?versions" accesskey="v">Versions</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Recent Changes button-->
+				<a href="/RecentChanges" accesskey="">Recent Changes</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--User Guide button-->
+				<a href=".FitNesse.UserGuide" accesskey="">User Guide</a>
+				<div class="nav_break">&nbsp;</div>
+				<!--Test History button-->
+				<a href="?testHistory" accesskey="">Test History</a>
+				<div class="nav_break">&nbsp;</div>
+				<div class="nav_break">&nbsp;</div>
+			</div>
+		</div>
+		<div class="mainbar">
+			<div class="header">
+				<br/><span class="page_title">IncludingPage</span>
+<a style="font-size:small;" onclick="popup('addChildPopup')"> [add child]</a>			</div>
+			<div class="main"><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-3922339017132946557');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3922339017132946557"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="SetUp">SetUp</a> <a href="SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-3922339017132946557">Set Up parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5472001811293014288');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-5472001811293014288"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="IncludedPage">IncludedPage</a> <a href="IncludedPage?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="-5472001811293014288">Included parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+Including parent page name is <a href="IncludingPage">IncludingPage</a><br/><div class="teardown">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('6148714198157862406');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6148714198157862406"/>
+	</a>
+&nbsp;<span class="meta">Tear Down: <a href="TearDown">TearDown</a> <a href="TearDown?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="6148714198157862406">Tear Down parent page name is <a href="IncludingPage">IncludingPage</a></div>
+</div>
+<br/><div class="footer">
+</div>
+<div id="addChildPopup" class="popup_window">
+  <div class="popup_title">Add Child Page to IncludingPage</div>
+  <div class="popup_content">
+    <form action="IncludingPage" method="get">
+      <input type="hidden" name="responder" value="addChild"/>
+      <table border="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td>
+            <input type="radio" name="pageType" value="Normal"/> Normal<br/>
+            <input type="radio" name="pageType" value="Test"/> Test<br/>
+            <input type="radio" name="pageType" value="Suite"/> Suite<br/>
+            <input type="radio" name="pageType" value="Default" checked="checked"/> Default<br/>
+          </td>
+          <td>
+            <table border="0" cellspacing="0" width="100%">
+              <tr>
+                <td><label for="childName">Name</label></td?
+                <td><input size="50" id="childName" type="text" name="name"/></td>
+              </tr>
+              <tr>
+                <td><label for="childContent">Content</label></td>
+                <td><input size="50" id="childContent" type="text" name="content" value="!contents"/></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input TYPE="button" VALUE="Cancel" onClick="popdown('addChildPopup')"/>
+            <input value="Add" type="submit"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></div>
+		</div>
+	</body>
+</html>
+]]></actual>
+                              <expected><![CDATA[show]]></expected>
+                              <evaluationMessage><![CDATA[show]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_28_0, make, decisionTable_28, TearDown]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_28_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[tear down]]></expected>
+                              <evaluationMessage><![CDATA[pass(tear down)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_28_1, call, decisionTable_28, table, []]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:fitnesse.slim.SlimError: message:<<NO_METHOD_IN_CLASS table[1] fitnesse.fixtures.TearDown.>>
+	at fitnesse.slim.MethodExecutionResult$NoMethod.returnValue(MethodExecutionResult.java:25)
+	at fitnesse.slim.MethodExecutionResults.returnValue(MethodExecutionResults.java:16)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:162)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Unknown Source)
+]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

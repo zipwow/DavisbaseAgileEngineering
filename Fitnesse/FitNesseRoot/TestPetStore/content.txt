@@ -1,0 +1,12 @@
+!path C:\Agile Engineering\Projects\PetStore\PetStore\bin\Release\PetStore.dll
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,fitsharp\fit.dll %p}
+!define TEST_RUNNER {fitsharp\Runner.exe}
+
+This is a test of the Pet Store implementation in C#.
+
+!|FitSharp_Fixtures.PetStoreFixture|
+|petName          |price?          |
+|Dog              |42.00           |
+|Cat              |13.00           |
+|Bird             |7.00            |
+|Fish             |1.00            |

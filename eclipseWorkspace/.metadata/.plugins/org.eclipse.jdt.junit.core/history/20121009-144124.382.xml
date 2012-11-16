@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="PrimesUnitTest" project="Primes" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="primes.PrimesUnitTest" time="0.015">
+    <testcase name="Zero" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="ListZero" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="ListSingle" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="Prime" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="ListPrime" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="Basic" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="ListBasic" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="Lots" classname="primes.PrimesUnitTest" time="0.0"/>
+    <testcase name="ListLots" classname="primes.PrimesUnitTest" time="0.015"/>
+    <testcase name="Single" classname="primes.PrimesUnitTest" time="0.0"/>
+  </testsuite>
+</testrun>

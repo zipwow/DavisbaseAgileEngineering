@@ -1,0 +1,6 @@
+!3 !-fit-!
+|'''Date: '''|!-9:51:51 AM (PDT) on Monday, August 20, 2012-!|
+|'''Test Page: '''|.TestPetStore|
+|'''Command: '''|!-fitsharp\Runner.exe -r fitnesse.fitserver.FitServer,fitsharp\fit.dll "C:\Agile Engineering\Projects\PetStore\PetStore\bin\Release\PetStore.dll" kevin-5a260e04f 80 1-!|
+|'''Exit code: '''|!-3-!|
+|'''Time elapsed: '''|!-6.749 seconds-!|

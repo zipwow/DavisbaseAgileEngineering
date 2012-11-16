@@ -1,0 +1,7 @@
+!contents -R2 -g -p -f -h
+
+!path assemblies
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,c:\program files\fitsharp\fit.dll [-c suiteconfig] [-a appconfig] [%p]}
+!define TEST_RUNNER {c:\program files\fitsharp\Runner.exe}
+
+TestPetStore

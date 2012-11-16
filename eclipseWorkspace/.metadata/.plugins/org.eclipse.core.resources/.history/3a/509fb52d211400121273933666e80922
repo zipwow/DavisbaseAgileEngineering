@@ -1,0 +1,25 @@
+Accidental Concatenation
+Comparison Of Short And Char
+Disallow Unnamed Thread Usage
+Disallow Use of AWT Peer Classes
+Disallow Use of Deprecated Thread Methods
+Duplicate Property Name
+Empty Do Statement
+Empty For Statement
+Empty Switch Statement
+Environment Variable Access
+Extra Semicolon
+Improper Use of Thread.interrupted()
+Integer Division in a Floating-point Expression
+Log Exceptions
+No Run Method
+Non-serializable Class Declares serialVersionUID
+Obey General Contract of Equals
+Overriding a Synchronized Method with a Non-synchronized Method
+Transient Field in Non-Serializable Class
+Unnecessary 'instanceof' Test
+Unnecessary Type Cast
+Unused Label
+Use of 'instanceof' with 'this'
+Use Start Rather Than Run
+Wrong Integer Type Suffix

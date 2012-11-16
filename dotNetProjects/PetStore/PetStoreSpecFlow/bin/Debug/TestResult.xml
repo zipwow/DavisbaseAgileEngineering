@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll" total="5" errors="0" failures="1" not-run="0" inconclusive="1" ignored="0" skipped="0" invalid="0" date="2012-10-05" time="07:30:17">
+<test-results name="C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll" total="5" errors="0" failures="1" not-run="0" inconclusive="1" ignored="0" skipped="0" invalid="0" date="2012-10-25" time="13:23:26">
   <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.3634" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug" machine-name="KEVIN-5A260E04F" user="Administrator" user-domain="KEVIN-5A260E04F" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll" executed="True" result="Failure" success="False" time="0.484" asserts="0">
+  <test-suite type="Assembly" name="C:\Agile Engineering\code\dotNetProjects\PetStore\PetStoreSpecFlow\bin\Debug\PetStoreSpecFlow.dll" executed="True" result="Failure" success="False" time="1.172" asserts="0">
     <results>
-      <test-suite type="Namespace" name="PetStoreSpecFlow" executed="True" result="Failure" success="False" time="0.484" asserts="0">
+      <test-suite type="Namespace" name="PetStoreSpecFlow" executed="True" result="Failure" success="False" time="1.141" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="DiscountRatesExerciseFeature" description="Discount Rates Exercise" executed="True" result="Inconclusive" success="False" time="0.437" asserts="0">
+          <test-suite type="TestFixture" name="DiscountRatesExerciseFeature" description="Discount Rates Exercise" executed="True" result="Inconclusive" success="False" time="1.031" asserts="0">
             <results>
-              <test-case name="PetStoreSpecFlow.DiscountRatesExerciseFeature.DiscountHappyPath" description="Discount Happy Path" executed="True" result="Inconclusive" success="False" time="0.156" asserts="0">
+              <test-case name="PetStoreSpecFlow.DiscountRatesExerciseFeature.DiscountHappyPath" description="Discount Happy Path" executed="True" result="Inconclusive" success="False" time="0.578" asserts="0">
                 <reason>
                   <message><![CDATA[No matching step definition found for one or more steps.
 [Binding]
@@ -26,9 +26,9 @@ public class StepDefinitions
               </test-case>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="PricingFeature" description="Pricing" executed="True" result="Failure" success="False" time="0.047" asserts="0">
+          <test-suite type="TestFixture" name="PricingFeature" description="Pricing" executed="True" result="Failure" success="False" time="0.062" asserts="0">
             <results>
-              <test-case name="PetStoreSpecFlow.PricingFeature.BrokenCatSearch" description="Broken Cat Search" executed="True" result="Failure" success="False" time="0.016" asserts="1">
+              <test-case name="PetStoreSpecFlow.PricingFeature.BrokenCatSearch" description="Broken Cat Search" executed="True" result="Failure" success="False" time="0.031" asserts="1">
                 <failure>
                   <message><![CDATA[  Expected: 13m
   But was:  14m

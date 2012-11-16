@@ -1,0 +1,24 @@
+package com.mycompany;
+
+import java.math.BigDecimal;
+
+public class StubShippingService implements IShippingService {
+
+	public StubShippingService(BigDecimal price) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public BigDecimal lookupPrice(int productID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void shipOrder(int accountId, int productID)
+			throws OutOfInventoryException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
