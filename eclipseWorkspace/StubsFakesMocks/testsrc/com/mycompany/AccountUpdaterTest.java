@@ -13,7 +13,7 @@ public class AccountUpdaterTest {
 	@Test
 	public void testHappyPath() {
 		// write a test to be sure that the price returned from the shipping service 
-		// is charged to the credit card
+		// is recorded in the OrderResult
 	}
 
 	@Test
