@@ -26,5 +26,6 @@ public interface ITwoPhaseCommitShippingService
 	 * @throws OutOfInventoryException if the provided productID has no stock left 
 	 */
     int beginShipOrderTransaction(String accountId, int productID) throws OutOfInventoryException;
-    //void commitTransaction(int transactionId);
+    
+    void commitTransaction(int transactionId);
 }

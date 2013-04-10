@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="38" version="2.0">
+<workbench progressCount="57" version="2.0">
 <workbenchAdvisor/>
-<window height="736" maximized="true" width="1278" x="1" y="1">
+<window height="574" width="1440" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -16,18 +16,18 @@
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="40" y="23"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="76" y="23"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="23"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="23"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="23"/>
 <coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="40" y="23"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="23"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="120" y="23"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="scala.texteditor.actionset" itemType="typeToolBarContribution" x="32" y="23"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="23"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" itemType="typePlaceholder" x="104" y="23"/>
+<coolItem id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" itemType="typeToolBarContribution" x="104" y="23"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -40,10 +40,41 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderPlacement.java" partName="OrderPlacement.java" path="/Users/kevinklinemeier/DavisbaseAgileEngineering/eclipseWorkspace/StubsFakesMocks/src/com/mycompany/OrderPlacement.java" title="OrderPlacement.java" tooltip="StubsFakesMocks/src/com/mycompany/OrderPlacement.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StubsFakesMocks/src/com/mycompany/OrderPlacement.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="437" selectionTopPixel="0"/>
+</editor>
+<editor id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" name="AccountUpdaterTest.java" partName="AccountUpdaterTest.java" path="/Users/kevinklinemeier/DavisbaseAgileEngineering/eclipseWorkspace/StubsFakesMocks/testsrc/com/mycompany/AccountUpdaterTest.java" title="AccountUpdaterTest.java" tooltip="StubsFakesMocks/testsrc/com/mycompany/AccountUpdaterTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StubsFakesMocks/testsrc/com/mycompany/AccountUpdaterTest.java"/>
+<editorState selectionHorizontalPixel="7" selectionLength="0" selectionOffset="367" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IShippingService.java" partName="IShippingService.java" path="/Users/kevinklinemeier/DavisbaseAgileEngineering/eclipseWorkspace/StubsFakesMocks/src/com/mycompany/IShippingService.java" title="IShippingService.java" tooltip="StubsFakesMocks/src/com/mycompany/IShippingService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StubsFakesMocks/src/com/mycompany/IShippingService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="89"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ITwoPhaseCommitShippingService.java" partName="ITwoPhaseCommitShippingService.java" path="/Users/kevinklinemeier/DavisbaseAgileEngineering/eclipseWorkspace/StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitShippingService.java" title="ITwoPhaseCommitShippingService.java" tooltip="StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitShippingService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitShippingService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="955" selectionTopPixel="119"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Primes.java" partName="Primes.java" path="/Users/kevinklinemeier/DavisbaseAgileEngineering/eclipseWorkspace/Primes/src/primes/Primes.java" title="Primes.java" tooltip="Primes/src/primes/Primes.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Primes/src/primes/Primes.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="389" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" name="PrimesUnitTest.java" partName="PrimesUnitTest.java" path="/Users/kevinklinemeier/DavisbaseAgileEngineering/eclipseWorkspace/Primes/test/src/primes/PrimesUnitTest.java" title="PrimesUnitTest.java" tooltip="Primes/test/src/primes/PrimesUnitTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Primes/test/src/primes/PrimesUnitTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="33" selectionOffset="17" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
@@ -54,10 +85,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="474"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -99,7 +126,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -192,7 +219,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.17494752" ratioLeft="250" ratioRight="1179" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.1483555" ratioLeft="212" ratioRight="1217" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.80252767" ratioLeft="508" ratioRight="125" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -225,7 +252,172 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" path="/TestJUnit/src/QueueTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestJUnit/src/MyQueue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/StubsFakesMocks/src/com/mycompany/OrderPlacement.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" path="/StubsFakesMocks/testsrc/com/mycompany/AccountUpdaterTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/StubsFakesMocks/src/com/mycompany/OrderResult.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/StubsFakesMocks/src/com/mycompany/IShippingService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitCreditCardService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitShippingService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/StubsFakesMocks/src/com/mycompany/FundsNotAvailableException.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=StubsFakesMocks/easymock-3.1\/easymock-3.1.jar&lt;org.easymock(EasyMock.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Primes/src/primes/Primes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" path="/Primes/test/src/primes/PrimesUnitTest.java"/>
+</editors>
+<item historyLabel="QueueTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="QueueTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="MyQueue.java" index="1">
+<position info="not_deleted" x="102" y="0"/>
+</item>
+<item historyLabel="QueueTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="QueueTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="MyQueue.java" index="1">
+<position info="not_deleted" x="108" y="6"/>
+</item>
+<item historyLabel="QueueTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="QueueTest.java" index="0">
+<position/>
+</item>
+<item historyLabel="OrderPlacement.java" index="2">
+<position info="not_deleted" x="774" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="843" y="0"/>
+</item>
+<item historyLabel="OrderResult.java" index="4">
+<position/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="843" y="0"/>
+</item>
+<item historyLabel="IShippingService.java" index="5">
+<position/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="843" y="0"/>
+</item>
+<item historyLabel="OrderResult.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="843" y="0"/>
+</item>
+<item historyLabel="OrderPlacement.java" index="2">
+<position info="not_deleted" x="774" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitCreditCardService.java" index="6">
+<position/>
+</item>
+<item historyLabel="ITwoPhaseCommitShippingService.java" index="7">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="QueueTest.java" index="0">
+<position info="not_deleted" x="411" y="15"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="IShippingService.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1170" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitCreditCardService.java" index="6">
+<position/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1170" y="0"/>
+</item>
+<item historyLabel="IShippingService.java" index="5">
+<position info="not_deleted" x="397" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1170" y="0"/>
+</item>
+<item historyLabel="FundsNotAvailableException.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1391" y="0"/>
+</item>
+<item historyLabel="EasyMock.class" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1391" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitShippingService.java" index="7">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitCreditCardService.java" index="6">
+<position/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitCreditCardService.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitShippingService.java" index="7">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="OrderPlacement.java" index="2">
+<position info="not_deleted" x="774" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1271" y="0"/>
+</item>
+<item historyLabel="OrderPlacement.java" index="2">
+<position info="not_deleted" x="437" y="14"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="1271" y="0"/>
+</item>
+<item historyLabel="IShippingService.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ITwoPhaseCommitShippingService.java" index="7">
+<position info="not_deleted" x="955" y="0"/>
+</item>
+<item historyLabel="AccountUpdaterTest.java" index="3">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="Primes.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="PrimesUnitTest.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -243,17 +435,41 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" name="QueueTest.java" tooltip="TestJUnit/src/QueueTest.java">
-<persistable path="/TestJUnit/src/QueueTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" name="PrimesUnitTest.java" tooltip="Primes/test/src/primes/PrimesUnitTest.java">
+<persistable path="/Primes/test/src/primes/PrimesUnitTest.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyQueue.java" tooltip="TestJUnit/src/MyQueue.java">
-<persistable path="/TestJUnit/src/MyQueue.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Primes.java" tooltip="Primes/src/primes/Primes.java">
+<persistable path="/Primes/src/primes/Primes.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ITwoPhaseCommitShippingService.java" tooltip="StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitShippingService.java">
+<persistable path="/StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitShippingService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IShippingService.java" tooltip="StubsFakesMocks/src/com/mycompany/IShippingService.java">
+<persistable path="/StubsFakesMocks/src/com/mycompany/IShippingService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ITwoPhaseCommitCreditCardService.java" tooltip="StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitCreditCardService.java">
+<persistable path="/StubsFakesMocks/src/com/mycompany/twophasecommit/ITwoPhaseCommitCreditCardService.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" name="AccountUpdaterTest.java" tooltip="StubsFakesMocks/testsrc/com/mycompany/AccountUpdaterTest.java">
 <persistable path="/StubsFakesMocks/testsrc/com/mycompany/AccountUpdaterTest.java"/>
 </file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="EasyMock.class" tooltip="org.easymock.EasyMock">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=StubsFakesMocks/easymock-3.1\/easymock-3.1.jar&lt;org.easymock(EasyMock.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FundsNotAvailableException.java" tooltip="StubsFakesMocks/src/com/mycompany/FundsNotAvailableException.java">
+<persistable path="/StubsFakesMocks/src/com/mycompany/FundsNotAvailableException.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.assist.eclipse.junit.editor.core.CodeProTestsEditor" name="QueueTest.java" tooltip="TestJUnit/src/QueueTest.java">
+<persistable path="/TestJUnit/src/QueueTest.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderResult.java" tooltip="StubsFakesMocks/src/com/mycompany/OrderResult.java">
 <persistable path="/StubsFakesMocks/src/com/mycompany/OrderResult.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderPlacement.java" tooltip="StubsFakesMocks/src/com/mycompany/OrderPlacement.java">
+<persistable path="/StubsFakesMocks/src/com/mycompany/OrderPlacement.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyQueue.java" tooltip="TestJUnit/src/MyQueue.java">
+<persistable path="/TestJUnit/src/MyQueue.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StubCreditCardService.java" tooltip="StubsFakesMocks/testsrc/com/mycompany/StubCreditCardService.java">
 <persistable path="/StubsFakesMocks/testsrc/com/mycompany/StubCreditCardService.java"/>
@@ -263,18 +479,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="tests.js" tooltip="qunit/webroot/testsrc/tests.js">
 <persistable path="/qunit/webroot/testsrc/tests.js"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderPlacement.java" tooltip="StubsFakesMocks/src/com/mycompany/OrderPlacement.java">
-<persistable path="/StubsFakesMocks/src/com/mycompany/OrderPlacement.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FinishedPrimes.java" tooltip="Primes/src/primes/FinishedPrimes.java">
-<persistable path="/Primes/src/primes/FinishedPrimes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Primes.java" tooltip="Primes/src/primes/Primes.java">
-<persistable path="/Primes/src/primes/Primes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="runner.html" tooltip="qunit/webroot/runner.html">
-<persistable path="/qunit/webroot/runner.html"/>
 </file>
 </mruList>
 </workbench>

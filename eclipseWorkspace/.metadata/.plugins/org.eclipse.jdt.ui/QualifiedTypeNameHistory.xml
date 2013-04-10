@@ -10,10 +10,10 @@
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="org.easymock.EasyMock"/>
 <fullyQualifiedTypeName name="com.mycompany.ICreditCardService"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="MyQueue"/>
 <fullyQualifiedTypeName name="org.junit.Ignore"/>
 <fullyQualifiedTypeName name="com.mycompany.OrderPlacement"/>
 <fullyQualifiedTypeName name="com.mycompany.StubShippingService"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
 </qualifiedTypeNameHistroy>
