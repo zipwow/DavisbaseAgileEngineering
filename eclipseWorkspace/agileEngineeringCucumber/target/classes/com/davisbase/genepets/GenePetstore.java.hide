@@ -1,0 +1,19 @@
+package com.davisbase.genepets;
+
+import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
+
+public class GenePetstore {
+
+	private Map<String, BigDecimal> map = new HashMap<String, BigDecimal>();
+	
+	public void addPet(String petName, BigDecimal price) {
+		map.put(petName, price);
+	}
+
+	public BigDecimal search(String petName) {
+		return map.get(petName);
+	}
+
+}

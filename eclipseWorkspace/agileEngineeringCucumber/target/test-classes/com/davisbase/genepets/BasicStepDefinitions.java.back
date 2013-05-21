@@ -1,0 +1,38 @@
+package com.davisbase.genepets;
+
+import java.math.BigDecimal;
+
+import junit.framework.Assert;
+
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import cucumber.runtime.PendingException;
+
+public class BasicStepDefinitions {
+	private GenePetstore petStore;
+	private BigDecimal actualPrice;
+
+	@Before
+	public void setupPetstore() {
+		this.petStore = new GenePetstore();
+	}
+	
+	@Given("^a (.*) costs (.*)$")
+	public void a_Mimmoth_costs(String petName, BigDecimal price) throws Throwable {
+	    petStore.addPet(petName, price);
+	}
+
+	@When("^I enter (.*) and search for price$")
+	public void I_enter_Mimmoth_and_search_for_price(String petName) throws Throwable {
+	    this.actualPrice = petStore.search(petName);
+	}
+
+	@Then("^the result should be (.*)$")
+	public void the_result_should_be(BigDecimal expectedPrice) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    Assert.assertEquals(expectedPrice, actualPrice);
+	}
+
+}
